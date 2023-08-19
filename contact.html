@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Ryan's Contact Info</title>
+        <link rel="shortcut icon" href="https://www.wikipedia.org/static/favicon/wikipedia.ico">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.production.css">
+
+    </head>
+    <body>
+        <header>
+            <img src="http://via.placeholder.com/200x70" alt="">
+            <nav>
+                <ul role="menubar">
+                   <li role="presentation">
+                      <a href="index.html" role="menuitem">Home</a>
+                   </li>
+                   <li role="presentation">
+                      <a href="about-me.html" role="menuitem">About Me</a>
+                   </li>
+                  <li role="presentation">
+                      <a href="contact.html" role="menuitem">Contact</a>
+                   </li>
+                   <li role="presentation">
+                    <a href="work.html" role="menuitem">Work</a>
+                </ul>
+             </nav>
+            </header>
+        <h1>Contact</h1>
+        <form action="" method="post">
+            <label class="standard-label" for="contact-email">Email: </label>
+            <input type="email" id="contact-email" required>
+            <!--testing for and id tags-->
+            <label class="standard-label" for="contact-telephone">Telephone: </label>
+            <input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" id="contact-telephone">
+
+            <label class="standard-label" for="contact-message">Message: </label>
+            <textarea maxlength="240" id="contact-message" required></textarea>
+
+            <input type="submit" value="Send message">
+        </form>
+        <div>
+            CareerFoundry GmbH<br>
+            Lohmühlenstraße 65<br>
+            12435 Berlin<br>
+            Deutschland<br>
+            <br>
+            <a href="tel:+1-510-648-4793">Contact Me by Telephone</a><br>
+            <!--"Skype <a href="skype:hello.careerfoundry"> hello.careerfoundry</a><br>" was here previously-->
+            <a href="mailto:strandbergryanp@gmail.com">Contact Me on Gmail</a>
+          </div>
+          <script src="js/tota11y.min.js"></script>
+    </body>
+
+</html>
